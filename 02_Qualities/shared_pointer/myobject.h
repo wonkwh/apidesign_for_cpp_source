@@ -3,12 +3,13 @@
 #ifndef MYOBJECT_H
 #define MYOBJECT_H
 
-#include <boost/shared_ptr.hpp>
+#include <memory>
 
 namespace apibook {
 
 /// A reference-counted pointer to MyObject
-typedef boost::shared_ptr<class MyObject> MyObjectPtr;
+//typedef boost::shared_ptr<class MyObject> MyObjectPtr;
+typedef std::shared_ptr<class MyObject> MyObjectPtr;
 
 ///
 /// A class that lets you create reference-counted
