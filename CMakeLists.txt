@@ -15,3 +15,4 @@ set(CMAKE_CXX_FLAGS_DEBUG "-O0 -fno-inline")
 
 # Specify the subdirectories to build
 add_subdirectory(02_Qualities)
+add_subdirectory(03_Pattern)
